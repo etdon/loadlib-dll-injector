@@ -14,7 +14,7 @@ The `loadlib-dll-injector` project is a DLL injector that's utilizing the well-k
 
 If want to download a pre-compiled executable you can find all releases paired with their checksums here: [Releases](https://github.com/etdon/loadlib-dll-injector/releases)
 
-To inject a DLL into a process simply run the program like this:
+To inject a DLL into a process simply run the tool like this:
 ```
 dll-injector.exe <Target> <DLL path>
 ```
