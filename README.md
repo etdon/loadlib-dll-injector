@@ -2,15 +2,21 @@
     <img src="https://tools.etdon.com/placeholder-image/generate?width=830&height=207&background-color=8B5DFF,6A42C2,563A9C&text=loadlib-dll-injector&text-color=FFFFFF" width=830 height=207>    
 </p>
 
+<div align="center">
+
+![Windows](https://img.shields.io/badge/Windows-white?style=for-the-badge&logo=github&label=Platform&color=%230173b3)
+![x64](https://img.shields.io/badge/x64-white?style=for-the-badge&logo=mingww64&label=Architecture&color=%233fb911)
+![x86](https://img.shields.io/badge/x86-white?style=for-the-badge&logo=mingww64&label=Architecture&color=%233fb911)
+![C](https://img.shields.io/badge/C-white?style=for-the-badge&logo=c&label=Language&color=%23A8B9CC)
+![Apache 2.0](https://img.shields.io/badge/Apache%202.0-white?style=for-the-badge&logo=apache&label=License&color=%23D22128)
+
+</div>
+
 ## 🔰 Introduction
 
 The `loadlib-dll-injector` project is a DLL injector that's utilizing the well-known LoadLibary/CreateRemoteThread method to inject DLLs into other processes.
 
 ## 🚀 Getting Started
-
-> [!IMPORTANT]
-> Requirements:
-> - Windows
 
 If want to download a pre-compiled executable you can find all releases paired with their checksums here: [Releases](https://github.com/etdon/loadlib-dll-injector/releases)
 
