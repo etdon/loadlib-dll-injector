@@ -98,7 +98,15 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    if (GetFileAttributesA(dllPath) == INVALID_FILE_ATTRIBUTES)
+    const char *extension = strrchr(dllPath, '.');
+    if (!extension || strcmpi(extension, ".dll"))
+    {
+        printf("The provided path does not point to a DLL file.");
+        return 1;
+    }
+
+    DWORD attributes = GetFileAttributesA(dllPath);
+    if (attributes == INVALID_FILE_ATTRIBUTES || (attributes & FILE_ATTRIBUTE_DIRECTORY))
     {
         printf("The DLL file does not exist or cannot be accessed: %s", dllPath);
         return 1;
